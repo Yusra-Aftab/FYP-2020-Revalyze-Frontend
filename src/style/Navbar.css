@@ -1,0 +1,49 @@
+.custom-navbar {
+    background-color: black !important;
+  }
+  
+  .custom-navbar h1.navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center; /* Center vertically */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  .custom-navbar .navbar-toggler-icon {
+    background-color: white;
+  }
+  
+  .custom-navbar .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .custom-navbar .nav-link {
+    color: white !important;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    background-color: #333;
+  }
+  
+  .custom-navbar .dropdown-menu {
+    right: 0;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .custom-navbar .navbar-nav {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .custom-navbar .navbar-collapse {
+      text-align: center;
+    }
+  
+    .custom-navbar .navbar-toggler {
+      margin-left: auto;
+      margin-right: 15px;
+    }
+  }
+  

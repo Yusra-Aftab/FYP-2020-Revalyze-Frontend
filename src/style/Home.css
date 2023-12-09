@@ -1,0 +1,15 @@
+.recent-transcriptions {
+    margin-top: 40px;
+  }
+  
+  .transcription-box {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .transcription-box p {
+    margin: 0;
+  }
+  

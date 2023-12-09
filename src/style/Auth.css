@@ -1,0 +1,24 @@
+/* Auth.css */
+
+.square-box {
+  width: 100%;
+  height: 110px;
+  /* padding-top: 30%; */
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-color: grey;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.square-box p {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  margin: 0; /* Remove default margin for better centering */
+}
+
+
+.mb-4 {
+  font-size: 1.5rem;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
